@@ -1,0 +1,88 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: rgba(114, 114, 114, 0.637);
+}
+header,main,footer,nav,article,aside{
+    background-color: rgba(0, 177, 38, 0.5);
+    padding: 5px;
+    margin: 10px;
+}
+nav,article,aside{
+    background-color: rgba(0, 177, 38, 1);
+}
+h3, nav{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 900;
+    color: black;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 900;
+    color: black;
+}
+h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+aside>p{
+    text-align: center;
+}
+aside>h3{
+    width: 80%;
+    flex: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nameSite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nameSite>h1{
+    text-align: center;
+    flex:1;
+}
+.nameSite>img{
+    width: 70px;
+}
+nav{
+    display: flex;
+    margin-bottom: 10px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    flex: 2;
+}
+nav li{
+    text-align: center;
+    flex: 1;
+}
+nav a{
+    text-decoration:0;
+}
+.vertical>img{
+    width: 150px;
+    flex-basis: 49%;
+    margin:1px;
+}
+main{
+    display: flex;
+    height: 350px;
+    height:max-content;
+}
+.vertical{
+    width: 305px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left:auto;
+}
